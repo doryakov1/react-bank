@@ -48,7 +48,7 @@ function App() {
           <Route path='/react-bank' element={<HomePage customers={customers} setCustomerIdx={setCustomerIdx}/>} />
           <Route path='/react-bank/register' element={<Register addCustomer={addCustomer}/>} />
           {customers.map((customer)=>{
-            return <Route path={`/react-bank/${customer.fullName}`} element={<Customer customer={customers[customerIdx]} onPurchase={onPurchase} />} />
+            return <Route path={'/react-bank/'+customer.fullName} element={<Customer customer={customers[customerIdx]} onPurchase={onPurchase} />} />
           })}
           <Route path='/react-bank/edit' element={<Edit customer={customers[customerIdx]} updateCustomer={updateCustomer}/>} />
           <Route path='/react-bank/admin' element={<Admin customers={customers} deleteExpense={deleteExpense} />} />
