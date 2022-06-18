@@ -13,7 +13,7 @@ export default function HomePage(props) {
             nav('/react-bank/admin')
         } else if (foundIdx != -1){
             props.setCustomerIdx(foundIdx)
-            nav(`/${userName}`)
+            nav(`/react-bank/${userName}`)
         }else{
             alert('User didnt found')
         }
