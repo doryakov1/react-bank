@@ -1,0 +1,53 @@
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.customer .link{
+    text-decoration: none;
+}
+
+.customer .customer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    width: 390px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.customer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(90px + 2vmin);
+    width: calc(140px + 2vmin);
+    font-size: calc(24px + 2vmin);
+    border-radius: 8px;
+    color: white;
+    background: steelblue;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.customer .purchase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: calc(20px + 2vmin);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;  
+}

@@ -1,0 +1,52 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.register input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(25px + 2vmin);
+    width: calc(200px + 2vmin);
+    font-size: calc(15px + 2vmin);
+    color: black;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+.register input::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(25px + 2vmin);
+    width: calc(200px + 2vmin);
+    font-size: calc(15px + 2vmin);
+    color: black;
+}
+
+
+.register button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(50px + 2vmin);
+    width: calc(125px + 2vmin);
+    font-size: calc(28px + 2vmin);
+    border-radius: 10px;
+    color: white;
+    background: steelblue;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
